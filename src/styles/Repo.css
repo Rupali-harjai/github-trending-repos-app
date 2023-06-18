@@ -1,0 +1,82 @@
+.header {
+  border-top: 2px solid #d0d7de;
+  border-bottom: 2px solid #d0d7de;
+}
+.main-filter {
+  display: flex;
+  flex-direction: row;
+}
+.main_filter_button {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d0d7de;
+}
+.main_filter_button .dropdown {
+  margin: 20px;
+}
+.main-filter_header {
+  border: 2px solid #d0d7de;
+  margin-top: 80px;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px 0px;
+  border: transparent;
+  border-bottom: 2px solid #d0d7de;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+}
+.card_built-info {
+  display: flex;
+  flex-direction: row;
+}
+.card_built-info span {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card_heading h4 {
+  color: #0969da;
+  font-weight: 400;
+}
+.card_heading span {
+  font-weight: 500;
+}
+.repo-language-color {
+  position: relative;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #0969da;
+  border: 1px solid #0969da;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.repo-star-color,
+.repo-fork-color {
+  margin: 4px 5px 4px 17px;
+}
+.card_star_data .btn-group button {
+  background-color: #d0d7de;
+}
+.card_star_data .btn-group button svg {
+  margin-right: 10px;
+}
+.card_star_data .btn-group a {
+  text-decoration: none;
+  color: #24292f;
+}
+.card_star_details {
+  margin: 4px;
+}
+.card_star_details svg {
+  margin: 0px 7px;
+}

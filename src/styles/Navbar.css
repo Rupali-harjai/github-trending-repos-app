@@ -1,0 +1,14 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav li button {
+    padding: 5px 13px;
+    border: 2px solid black;
+}
+.navbar-nav li.user_name{
+    font-size: 20px;
+    padding: 4px;
+    margin: 0px 0px 0px 5px;
+    font-weight: bold;
+}

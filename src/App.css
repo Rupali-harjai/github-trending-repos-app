@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+padding: 0px;
+}
+#root {
+height: 100%;
+}
+
+html,
+body {
+min-height: 100vh;
+height: 100%;
+overflow-x: hidden;
+}
+.dark-mode {
+    background-color: #1a1919!important;
+    color: #999!important;
+    transition: background-color 0.25s ease-in-out;
+  }
+  
+  .light-mode {
+    background-color: #fff!important;
+    color: #333!important;
+  
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #000000!important;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #333333;
+    color: #ffffff!important;
+  }
