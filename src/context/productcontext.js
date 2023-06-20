@@ -6,7 +6,7 @@ let API = "https://mocki.io/v1/e9caa92e-3c59-4a8b-adb0-7dc591b4c471";
 
 export const AppContext = createContext();
 
-// initial state 
+// initial state
 const initialState = {
   hits: [],
 };

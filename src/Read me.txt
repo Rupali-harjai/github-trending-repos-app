@@ -1,0 +1,13 @@
+Steps which I follow in Github react app are-: 
+
+List of Dependency which I used are -: 
+1.Axios : For fetching data
+2.React-router-dom : For routing the pages
+3.Context Api : For storing the data of API( For this I create folder of Context)
+4.Reducer Hook : It helps the component to read the data of user from redux store and dispatch action to store to update user data. (For this I create folder of Reducer)
+5.AuthO - By Autho, I create login page
+6.UseState Hook - For filter the data From API
+
+
+Other files are-: 
+1.Styles - For styling the Github app
